@@ -1,3 +1,108 @@
 .collection {
-    background-color: #fff;
+  background-color: #1c2225;
+  margin-bottom: 80px;
+}
+.portfolio-logo {
+  font-family: Manrope;
+  color: #fcf9f9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-logo {
+    font-family: Manrope;
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+  }
+}
+.background {
+  position: absolute;
+}
+
+.collection-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .collection-item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .collection-item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+.collection-list {
+  position: relative;
+  display: flex;
+  width: 335px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .collection-list {
+    width: calc((100% - 20px) / 2);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .collection-list {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+.collection-name-price {
+  font-family: Manrope;
+  display: flex;
+  width: 335px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.collection-name {
+  font-family: Manrope;
+  overflow: hidden;
+  color: #fcf9f9;
+
+  text-overflow: ellipsis;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.collection-price {
+  font-family: Manrope;
+  color: rgba(252, 249, 249, 0.4);
+
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.03em;
 }
