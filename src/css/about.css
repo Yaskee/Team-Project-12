@@ -13,7 +13,12 @@
     background-color: var(--dark);
     padding-left: 20px;
     padding-right: 20px;
+<<<<<<< Updated upstream
     margin-bottom: 80px;
+=======
+    padding-bottom: 62px;
+    margin-bottom: 18px;
+>>>>>>> Stashed changes
 }
 
 /* background-image: url(./images/mobile/mobile-about-orn-x1.png);
@@ -24,7 +29,11 @@ background-position-y: 300px; */
 .square {
     position: absolute;
     z-index: 99999999999;
+<<<<<<< Updated upstream
     top: 300px;
+=======
+    top: 364px;
+>>>>>>> Stashed changes
     left: 125px;
     background: no-repeat;
 }
@@ -127,7 +136,11 @@ background-position-y: 300px; */
     .about-section-container {
         padding-left: 32px;
         padding-right: 32px;
+<<<<<<< Updated upstream
    margin-bottom: 100px;
+=======
+        padding-bottom: 100px;
+>>>>>>> Stashed changes
     }
 
     .square {
@@ -175,11 +188,19 @@ background-position-y: 300px; */
         justify-content: center;
         align-items: center;
         gap: 50px;
+<<<<<<< Updated upstream
         margin-bottom: 150px;
     }
 
     .square {
         top: 150px;
+=======
+        padding-bottom: 150px;
+    }
+
+    .square {
+        top: 200px;
+>>>>>>> Stashed changes
         left: 700px;
     }
 
