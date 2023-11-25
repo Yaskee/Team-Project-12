@@ -1,6 +1,6 @@
 /*################### mobile style #########################*/
 
-.order-img {
+.order-img-container {
   display: none;
 }
 
@@ -85,6 +85,7 @@
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 80px;
   }
 }
 
@@ -94,6 +95,7 @@
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -102,6 +104,7 @@
     max-width: 542px;
     font-size: 44px;
     line-height: 1.31;
+    margin-bottom: 40px;
   }
 
   .order-form-wrapper-comment,
@@ -112,16 +115,34 @@
   .order-form-btn {
     margin-left: 0;
   }
-  .order-img {
-    display: block;
-    max-width: 638px;
+  .order-img-container {
+    display: flex;
+    padding-bottom: 79px;
+    flex-direction: row-reverse;
+  }
+  .order-img-container-pic {
+    border-radius: 4px;
+    background: lightgray 50% cover no-repeat;
+  }
+  .order-background-img-container {
+    position: relative;
+  }
+  .order-background-img {
+    position: absolute;
+    z-index: 99999999;
+    top: 939px;
+    left: -31px;
+    background-repeat: no-repeat;
   }
 }
 /*################### desktop style #########################*/
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1158px;
+    max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 150px;
   }
 }
