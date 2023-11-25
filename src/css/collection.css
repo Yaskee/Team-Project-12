@@ -2,7 +2,7 @@ img {
   display: block;
 }
 
-.portfolio-logo {
+.collection-logo {
   color: #fcf9f9;
   font-size: 32px;
   font-style: normal;
@@ -12,9 +12,8 @@ img {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .portfolio-logo {
+  .collection-logo {
     color: #fcf9f9;
-
     font-family: Manrope;
     font-size: 44px;
     font-style: normal;
@@ -60,7 +59,7 @@ img {
     width: calc((100% - 20px) / 2);
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1158px) {
   .collection-list {
     width: calc((100% - 40px) / 3);
   }
