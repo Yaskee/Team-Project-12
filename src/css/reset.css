@@ -61,9 +61,3 @@ body {
   letter-spacing: -0.04em;
   background-color: #1C2225;
 }
-
-:root {
-  --dark: #1C2225;
-  --yellow: #ECD979;
-  --white: #FCF9F9;
-}
