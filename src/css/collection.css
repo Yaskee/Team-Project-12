@@ -126,23 +126,23 @@
   }
 }
 
-.square {
+.collection-square {
   position: absolute;
   z-index: 1;
-  top: 535px;
+  top: 457px;
   left: -29px;
 }
 
 @media screen and (min-width: 768px) {
-  .square {
-    top: 206px;
+  .collection-square {
+    top: 403px;
     left: -55px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .square {
-    top: 235px;
+  .collection-square {
+    top: 409px;
     left: 0;
   }
 }
