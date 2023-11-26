@@ -32,6 +32,7 @@
   background: rgba(252, 249, 249, 0.1);
   width: 100%;
   height: 100%;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-page-container {
@@ -55,6 +56,7 @@
   background-color: transparent;
   padding: 0;
   line-height: 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cocial-icon-menu:hover,
@@ -92,6 +94,7 @@
     font-weight: 400;
     line-height: 1.3;
     text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .menu-address {
@@ -107,6 +110,7 @@
     font-size: 14px;
     line-height: 1.4;
     text-transform: uppercase;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .menu-address:focus,
@@ -123,5 +127,9 @@
   .nav-menu-list:hover,
   .nav-menu-list:focus {
     color: var(--yellow);
+  }
+
+  .contact-tel{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
