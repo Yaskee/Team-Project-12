@@ -8,7 +8,6 @@
 .section-collection {
   background-image: url(./images/mobile/mobile-collection-orn-x1.png);
   background-repeat: no-repeat;
-  
 }
 
 .collection-logo {
@@ -79,7 +78,6 @@
 
 .collection-name-price {
   display: flex;
-
   flex-direction: column;
   align-items: flex-start;
   padding-top: 18px;
@@ -89,7 +87,6 @@
 .collection-name {
   overflow: hidden;
   color: #fcf9f9;
-
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
