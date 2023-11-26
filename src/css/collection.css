@@ -1,18 +1,7 @@
-.container{
-  position: relative;
-}
-
-img {
-  display: block;
-}
 .collection {
   background-image: url(./images/mobile/mobile-collection-orn-x1.png);
   background-repeat: no-repeat;
-  background-position-x: 127px;
-  background-position-y: 300px;
 }
-
-
 
 .collection-logo {
   color: #fcf9f9;
@@ -118,24 +107,20 @@ img {
 .square {
   position: absolute;
   z-index: 99999999999;
-  top: 333px;
+  top: 535px;
   left: -29px;
-  background-repeat: no-repeat;}
+}
 
 @media screen and (min-width: 768px) {
   .square {
-    top: 261px;
+    top: 434px;
     left: -53px;
   }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
   .square {
-    top: 262px;
+    top: 435px;
     left: -5px;
   }
-}
-.back-square{
-  background-repeat: no-repeat;
-
 }
