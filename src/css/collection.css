@@ -1,12 +1,14 @@
-img {
+.collection-container {
   position: relative;
-  z-index: 2;
+  background-color: var(--dark);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 80px;
 }
-
-.collection {
+.section-collection {
   background-image: url(./images/mobile/mobile-collection-orn-x1.png);
   background-repeat: no-repeat;
-  z-index: 1;
+  
 }
 
 .collection-logo {
@@ -18,7 +20,7 @@ img {
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-align: center;
-  padding: 40px;
+  padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .collection-logo {
@@ -56,8 +58,6 @@ img {
 }
 
 .collection-list {
-  position: relative;
-
   align-items: flex-start;
   gap: 18px;
 }
@@ -73,7 +73,8 @@ img {
   }
 }
 .collection-img {
-  z-index: 999999999999;
+  position: relative;
+  z-index: 2;
 }
 
 .collection-name-price {
@@ -134,14 +135,14 @@ img {
 
 @media screen and (min-width: 768px) {
   .square {
-    top: 434px;
-    left: -53px;
+    top: 206px;
+    left: -55px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .square {
-    top: 435px;
-    left: -5px;
+    top: 235px;
+    left: 0;
   }
 }
