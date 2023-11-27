@@ -126,7 +126,7 @@
   .collection-square {
     position: absolute;
     z-index: 1;
-  top: 233px;
+    top: 233px;
     left: -29px;
     background: no-repeat;
   }
