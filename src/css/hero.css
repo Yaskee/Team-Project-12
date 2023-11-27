@@ -397,6 +397,21 @@
     margin: 0;
   }
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-star {
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+
 
 /* === DESKTOP 1440px === */
 /*@media screen and (min-width: 1440px) {
