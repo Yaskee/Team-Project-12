@@ -126,20 +126,27 @@
   .collection-square {
     position: absolute;
     z-index: 1;
-    top: 457px;
+    top: 233px;
     left: -29px;
+    background: no-repeat;
   }
   
   @media screen and (min-width: 768px) {
     .collection-square {
+      position: absolute;
+      z-index: 1;
       top: 403px;
       left: -55px;
+      background: no-repeat;
     }
   }
   
   @media screen and (min-width: 1280px) {
     .collection-square {
+      position: absolute;
+      z-index: 1;
       top: 409px;
       left: 0;
+      background: no-repeat;
     }
   }
