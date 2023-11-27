@@ -56,7 +56,7 @@
   background-color: transparent;
   border: 1px solid rgba(252, 249, 249, 0.1);
   outline: transparent;
-  transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-form-comment {
@@ -72,7 +72,7 @@
   background-color: transparent;
   border: 1px solid rgba(252, 249, 249, 0.1);
   outline: transparent;
-  transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-form-wrapper-comment {
   margin-bottom: 40px;
@@ -98,13 +98,14 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   outline: transparent;
-  transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-form-btn:focus,
 .order-form-fild-input:focus,
 .order-form-comment:focus {
   border: 1px solid #ecd979;
 }
+
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
