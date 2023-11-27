@@ -128,6 +128,7 @@
     z-index: 1;
     top: 233px;
     left: -29px;
+    background: no-repeat;
   }
   
   @media screen and (min-width: 768px) {
@@ -136,6 +137,7 @@
       z-index: 1;
       top: 403px;
       left: -55px;
+      background: no-repeat;
     }
   }
   
@@ -145,5 +147,6 @@
       z-index: 1;
       top: 409px;
       left: 0;
+      background: no-repeat;
     }
   }
