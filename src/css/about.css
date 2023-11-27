@@ -18,9 +18,14 @@
 .square {
   position: absolute;
   z-index: 99999999999;
-  top: 370px;
-  left: 125px;
-  background: no-repeat;
+  top: 345px;
+  left: 105px;
+display: flex;
+  padding: 0px 0.615px 0.455px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
 }
 
 .about-section-title {
@@ -123,11 +128,13 @@
   }
 
   .square {
-    top: 550px;
-    left: 300px;
-box-sizing: none;
+    top: 470px;
+    left: 400px;
+    width: 545px;
+      height: 484px;
+      padding-right: 0px;
+ 
   }
-
 
   .about-section {
     width: 704px;
@@ -157,13 +164,11 @@ box-sizing: none;
   }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-
-    ::before,
-    ::after {
-        display: none;
-    }
+  ::before,
+  ::after {
+    display: none;
+  }
 }
 /*=================ABOUT US TABLET STYLES==================*/
 
@@ -181,9 +186,15 @@ box-sizing: none;
   }
 
   .square {
-    top: 80px;
-    left: 700px;
- 
+    top: 70px;
+    left: 890px;
+width: 545px;
+  height: 484px;
+    flex-shrink: 0;
+    padding: 0px 0.731px 0.539px 0px;
+      justify-content: center;
+      align-items: center;
+   
   }
 
   .about-section {
@@ -192,14 +203,11 @@ box-sizing: none;
 
   .about-image-container {
     display: flex;
-   
   }
 
   .about-section-image {
     max-width: 594px;
   }
-
-  
 }
 
 /*=================ABOUT US DESKTOP STYLES==================*/
