@@ -1,4 +1,47 @@
-<section class="hero section">
-    <h2>Lorem</h2>
-    <p>ipsum</p>
+<section class="section hero-section">
+  <div class="container hero-container">
+    <img class="hero-girl"
+    srcset="
+    ./images/desk1440/Desk1280-hero-girl-x1.jpg 392w,
+    ./images/desk1440/Desk1280-hero-girl-x2.jpg 784w,
+    ./images/tablet/tablet-hero-girl-x1.jpg 413w,
+    ./images/tablet/tablet-hero-girl-x2.jpg 826w,
+    ./images/mobile/mobile-hero-girl-x1.jpg 335w,
+    ./images/mobile/mobile-hero-girl-x2.jpg 670w"
+        sizes="(min-width:1280px) 392px, (min-width: 768px) 413px, (min-width: 375px) 335px"
+        src="./images/girl.jpg" alt="girl with vyshyvanka"
+        />
+      <div class="hero-title-container">
+      <h1 class="hero-title">
+        Reviving the traditional <span class="yellow-word">Ukrainian</span> artistry in every stitch.
+      </h1>
+            <a href="#your-order" class="hero-order-service-link">
+        Order
+        <svg class="arrow" width="26" height="17">
+          <use href="./images/sprint.svg#arrow"></use>
+        </svg>
+      </a>
+      </div>
+
+    <div class="icon-star-container">
+      <svg class="icon-star" width="52" height="51">
+        <use href="./images/sprint.svg#icon-Star-10"></use>
+      </svg>
+            <p class="icon-star-text">all embroidery is made by hand</p>
+        </div>
+
+    <img
+      class="hero-ukraine-map"
+      srcset="
+        ./images/desk1440/ukraine-map-desktop1440.png    139w,
+        ./images/desk1440/ukraine-map-desktop1440@2x.png 278w,
+        ./images/desk1280/ukraine-map-desktop1280.png    142w,
+        ./images/desk1280/ukraine-map-desktop1280@2x.png 284w,
+        ./images/tablet/ukraine-map-tablet.png           157w,
+        ./images/tablet/ukraine-map-tablet@2x.png        314w
+      "
+      sizes="(min-width:1440px) 139px, (min-width:1280px) 142px, (min-width: 768px) 157px"
+      src="./images/ukraine-map.png"
+      alt="ukraine map" />
+  </div>
 </section>
