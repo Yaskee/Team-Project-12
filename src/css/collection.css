@@ -123,22 +123,26 @@
     }
   }
   
-  .back-square {
+  .collection-square {
     position: absolute;
     z-index: 1;
-    top: 457px;
+    top: 233px;
     left: -29px;
   }
   
   @media screen and (min-width: 768px) {
-    .back-square {
+    .collection-square {
+      position: absolute;
+      z-index: 1;
       top: 403px;
       left: -55px;
     }
   }
   
   @media screen and (min-width: 1280px) {
-    .back-square {
+    .collection-square {
+      position: absolute;
+      z-index: 1;
       top: 409px;
       left: 0;
     }
