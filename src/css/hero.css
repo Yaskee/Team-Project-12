@@ -65,9 +65,12 @@
   transition: border .25s cubic-bezier(.4,0,.2,1)
 }
 
-.hero-order-link:hover,
+.hero-order-link:hover {
+  border-color: #ECD979;
+}
 .hero-order-link:focus {
-  border: 1px solid #ecd979
+  border: 1px solid #ecd979;
+
 }
 
 .hero-order-icon {
@@ -234,7 +237,7 @@
     color: var(--yellow, #ECD979);
   }
 
-  .hero-order-service-link {
+  .hero-order-link {
     cursor: pointer;
     text-align: center;
     display: flex;
@@ -257,8 +260,8 @@
     transition: border .25s cubic-bezier(.4,0,.2,1)
   }
 
-  .hero-order-service-link:hover,
-  .hero-order-service-link:focus {
+  .hero-order-link:hover,
+  .hero-order-link:focus {
     border: 1px solid var(252, 249, 249, 0.10);
   }
 
@@ -321,7 +324,7 @@
     margin-top: 26px;
   }
 
-  .hero-order-service-link {
+  .hero-order-link {
     width: 168px;
     padding: 14px 39px;
     margin-top: 40px;
