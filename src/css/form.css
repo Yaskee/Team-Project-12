@@ -7,9 +7,7 @@
 .order-img-container {
   display: none;
 }
-.order-background-ornament-container {
-  display: none;
-}
+
 .order-sectiom-main-img {
   padding: 0;
   width: 375px;
@@ -147,6 +145,11 @@
     padding-right: 32px;
     display: flex;
     flex-direction: column-reverse;
+    background-image: url(../images/desk1280/Desk1440-1280-tablet-form-ornament-x1.png);
+    background-size: 325px 484px;
+    background-repeat: no-repeat;
+    background-position-x: -3px;
+    background-position-y: 827px;
   }
 
   .order-form-title {
@@ -173,23 +176,7 @@
     width: 638px;
     height: 521px;
     border-radius: 4px;
-    background-image: url(../images/desk1280/Desk1440-1280-tablet-form-ornament-x1.png);
-    background-size: 545px 484px;
-    background-repeat: no-repeat;
-    background-position-x: 150px;
-    background-position-y: 150px;
   }
-  /*.order-background-ornament-container {
-    display: block;
-    position: relative;
-  }*/
-  /*.order-background-ornament {
-    position: absolute;
-    z-index: 99999999;
-    top: 827px;
-    left: -38px;
-    background-repeat: no-repeat;
-  }*/
 }
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
@@ -219,9 +206,12 @@
     padding-left: 64px;
     padding-right: 100px;
     flex-direction: row;
-
+    gap: 50px;
     margin-bottom: 150px;
+    background-position-x: -35px;
+    background-position-y: 156px;
   }
+
   .order-img-container-pic {
     width: 524px;
     height: 521px;
@@ -229,12 +219,6 @@
 
   .order-form-btn:hover {
     border: 1px solid #ecd979;
-  }
-
-  .order-background-ornament {
-    max-width: 325px;
-    top: 153px;
-    left: -1219px;
   }
 }
 
