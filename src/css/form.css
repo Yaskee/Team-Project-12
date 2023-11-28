@@ -113,6 +113,7 @@
     background-image: url(../images/mobile/mobile-bg-girl-x2.jpg);
   }
 }
+
 @media screen and (min-width: 320px) and (max-width: 375px) {
   .container {
     max-width: 375px;
@@ -172,21 +173,23 @@
     width: 638px;
     height: 521px;
     border-radius: 4px;
-    background-color: lightgray;
-    background-size: cover;
+    background-image: url(../images/desk1280/Desk1440-1280-tablet-form-ornament-x1.png);
+    background-size: 545px 484px;
     background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 150px;
   }
-  .order-background-ornament-container {
+  /*.order-background-ornament-container {
     display: block;
     position: relative;
-  }
-  .order-background-ornament {
+  }*/
+  /*.order-background-ornament {
     position: absolute;
     z-index: 99999999;
     top: 827px;
     left: -38px;
     background-repeat: no-repeat;
-  }
+  }*/
 }
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
@@ -216,7 +219,7 @@
     padding-left: 64px;
     padding-right: 100px;
     flex-direction: row;
-    gap: 50px;
+
     margin-bottom: 150px;
   }
   .order-img-container-pic {
