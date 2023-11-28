@@ -124,6 +124,8 @@
   }
   
   .collection-square {
+    background-image: url(./images/mobile/mobile-collection-orn-x1.png);
+    background-repeat: no-repeat;
     position: absolute;
     z-index: 1;
     top: 233px;
