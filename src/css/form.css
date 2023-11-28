@@ -145,6 +145,7 @@
     padding-right: 32px;
     display: flex;
     flex-direction: column-reverse;
+    background-color: var(--dark);
     background-image: url(../images/desk1280/Desk1440-1280-tablet-form-ornament-x1.png);
     background-size: 325px 484px;
     background-repeat: no-repeat;
